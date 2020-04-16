@@ -1,5 +1,3 @@
-#/usr/bin/env python
-# -*- coding: UTF-8 -*-
 import cv2
 import numpy as np
 import PIL.Image as Image
@@ -46,11 +44,11 @@ if __name__ == "__main__":
   try:
     opts, args = getopt.getopt(argv,"hi:o:",["ifile=","ofile="])
   except getopt.GetoptError:
-    print ' -i <inputfile> -o <outputfile>'
+    print(' -i <inputfile> -o <outputfile>')
     sys.exit(2)
   for opt, arg in opts:
     if opt == '-h':
-        print ' -i <inputfile> -o <outputfile>'
+        print(' -i <inputfile> -o <outputfile>')
         sys.exit()
     elif opt in ("-i", "--ifile"):
         inputfile = arg

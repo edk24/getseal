@@ -7,15 +7,15 @@ python version 2.x
 #### Install
 
 ```bash
-$ pip install opencv-python
-$ pip install numpy
-$ sudo pip install Pillow
+$ pip3 install opencv-python
+$ pip3 install numpy
+$ pip3 install Pillow
 ```
 
 #### Run
 
 ```bash
-$ python getseal.py -i source.png -o out.png
+$ python3 getseal.py -i source.png -o out.png
 ```
 
 #### Result
