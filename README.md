@@ -1,9 +1,5 @@
 # 印章提取
 
-#### Python
-
-python version 2.x
-
 #### Install
 
 ```bash
